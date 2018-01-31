@@ -4,10 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="zhou.com.view.activity.OneActivity">
-
+    tools:context="zhou.com.view.activity.OneActivity"
+    android:orientation="vertical">
+    
     <zhou.com.view.view.PieView
+        android:layout_marginTop="80dp"
         android:id="@+id/pieView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="200dp" />
+
+
 </LinearLayout>
