@@ -24,4 +24,11 @@
         android:layout_height="wrap_content"
         android:text="勾选样式" />
 
+    <Button
+        android:id="@+id/bt5"
+        android:textAllCaps="false"
+        android:text="LeftLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
