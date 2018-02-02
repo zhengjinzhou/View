@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GAStudioLeafLoading</string>
+    <string name="app_name">自定义View学习</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="current_mplitude">Modify amplitude, current: %1$s</string>

@@ -21,12 +21,11 @@
         <activity android:name=".activity.OneActivity" />
         <activity android:name=".activity.TwoActivity" />
         <activity android:name=".activity.ThreeActivity" />
-<<<<<<< HEAD
         <activity android:name=".activity.PathActivity" />
-        <activity android:name=".activity.FiveActivity"></activity>
-=======
-        <activity android:name=".activity.LeafLoadingActivity"></activity>
->>>>>>> 02618b8eff8e077676350b283c8aba7abee3786a
+        <activity android:name=".activity.FiveActivity" />
+        <activity android:name=".activity.LeafLoadingActivity" />
+        <activity android:name=".activity.CircleWaveActivity" />
+        <activity android:name=".activity.RadarScanTestActivty"></activity>
     </application>
 
 </manifest>
