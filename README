@@ -1,4 +1,20 @@
 1、制作一个饼状图
     在了解了点、线、圆形、扇形、椭圆形之后，定义一个圆饼，以我刚开始的思路也是能够定义出这样一个圆形的，但是完全没有暴露出来给用户，使用场景不佳，现在按照某一大神的代码来撸一发
 
-2、Canvas的常用操作速查表
+2、饼状图
+
+3、勾选动画
+
+Path详情
+请关闭硬件加速，以免引起不必要的问题！
+请关闭硬件加速，以免引起不必要的问题！
+请关闭硬件加速，以免引起不必要的问题！
+    需要在AndroidMenifest文件中application节点下添上 android:hardwareAccelerated="false"以关闭整个应用的硬件加速。
+    需要在AndroidMenifest文件中application节点下添上 android:hardwareAccelerated="false"以关闭整个应用的硬件加速。
+    需要在AndroidMenifest文件中application节点下添上 android:hardwareAccelerated="false"以关闭整个应用的硬件加速。
+    path作用
+        onDraw可以绘制一些简单的图形（圆，矩形，圆弧等），而对于那些复杂一点图形就无法绘制了（比如心形 正多边形 五角星等）
+        这时候使用Path不仅能够绘制简单图形，也可以绘制这些比较复杂的图形，另外，根据路径绘制文本和剪裁画布都会用到path
+
+
+4、

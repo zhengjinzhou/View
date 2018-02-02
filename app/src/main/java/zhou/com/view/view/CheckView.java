@@ -18,6 +18,8 @@ import zhou.com.view.R;
 
 /**
  * Created by zhou on 2018/1/31.
+ *  自定义动画机制
+ *  勾选框，主要是在init初始化的地方有点难
  *
  */
 

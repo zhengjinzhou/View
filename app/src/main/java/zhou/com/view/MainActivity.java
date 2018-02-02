@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import zhou.com.view.activity.FiveActivity;
 import zhou.com.view.activity.OneActivity;
+import zhou.com.view.activity.PathActivity;
 import zhou.com.view.activity.ThreeActivity;
 import zhou.com.view.activity.TwoActivity;
 import zhou.com.view.utils.windowUtil;
@@ -34,6 +36,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), ThreeActivity.class));
+            }
+        });
+        findViewById(R.id.bt4).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), PathActivity.class));
+            }
+        });
+        findViewById(R.id.bt5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), FiveActivity.class));
             }
         });
     }

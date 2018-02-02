@@ -24,4 +24,17 @@
         android:layout_height="wrap_content"
         android:text="勾选样式" />
 
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Path测试"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt5"
+        android:text="上面圆下面直"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
