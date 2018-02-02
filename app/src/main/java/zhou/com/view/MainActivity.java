@@ -6,7 +6,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+<<<<<<< HEAD
 import zhou.com.view.activity.FiveActivity;
+=======
+import zhou.com.view.activity.LeafLoadingActivity;
+>>>>>>> 02618b8eff8e077676350b283c8aba7abee3786a
 import zhou.com.view.activity.OneActivity;
 import zhou.com.view.activity.PathActivity;
 import zhou.com.view.activity.ThreeActivity;
@@ -38,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(), ThreeActivity.class));
             }
         });
+<<<<<<< HEAD
         findViewById(R.id.bt4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -48,6 +53,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(), FiveActivity.class));
+=======
+        findViewById(R.id.bt5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), LeafLoadingActivity.class));
+>>>>>>> 02618b8eff8e077676350b283c8aba7abee3786a
             }
         });
     }
